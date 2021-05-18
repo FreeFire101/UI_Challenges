@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:ui_challenges/first_ui/first_ui.dart';
 import 'package:ui_challenges/first_ui/first_ui_second_part.dart';
+import 'package:ui_challenges/home_page.dart';
 import 'package:ui_challenges/second_ui/second_ui.dart';
 import 'package:ui_challenges/third_ui/third_ui.dart';
+import 'package:ui_challenges/third_ui/third_ui_second_part.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +29,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: ThirdUi(),
+      home: HomePage(),
     );
   }
 }

@@ -14,7 +14,12 @@ class _FirstUiState extends State<FirstUi> {
       appBar: AppBar(
         backgroundColor: Colors.white.withOpacity(0),
         elevation: 0,
-        leading: Icon(Icons.arrow_back),
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
